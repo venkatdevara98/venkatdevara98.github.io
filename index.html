@@ -1,9 +1,88 @@
 <html>
 <head>
    <title>My profile</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Welcome</h1>
+    <div id="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutMe">About me</a></li>
+        <li><a href="#contactMe">Contact me</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+    </div>
+    <div class="container">
+        <div id="home">
+            <h1>Welcome to my profile.</h1>
+           <br><br>
+           <p>Hi, I am Venkata Ramana .Click on tabs to checkout my profile.</p>
+        </div>
+        <div id="aboutMe">
+            <h1>About me</h1>
+            <hr>
+            <p>Hi, I am D.Venkata Ramana, currently pursuing B.Tech(4/4) from <a href="https://www.mvsrec.edu.in/">M.V.S.R Engineering College</a>.I am also working as an
+                intern at <a href="https://www.zemosolabs.com/">Zemoso Technologies, Hyderabad</a>. </p>
+            <p>I am passionate about developing new softwares and working with them.My hobbies are:</p>
+            <ul>
+                <li>Drawing</li>
+                <li>Playing Cricket</li>
+                <li>Playing Guitar</li>
+            </ul>
+        </div>
+        <div id="contactMe">
+            <h1>Contact Me</h1>
+            <hr>
+            <p>Here are my Contact Details:</p>
+            <p>Phone : +918074335544</p>
+            <p>Email : venkatdevara98@gmail.com</p>
+            <p>Location : Hyderabad, India</p>
+            <br>
+            <p>You can also reach out to me by filling the following form</p>
+            <div class="form-style">
+            <form>
+				<table>
+					<tr>
+						<td>First Name:</td>
+						<td><input type="text" name="first_name" ></td>
+					</tr>
+					<tr>
+						<td>Last Name:</td>
+						<td><input type="text" name="last_name" ></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="email" ></td>
+					</tr>
+					<tr>
+						<td>Phone:</td>
+						<td><input type="text" name="phone" ></td>
+					</tr>
+					<tr>
+						<td>Message:</td>
+						<td><textarea name="message" rows="5" cols="60" ></textarea></td>
+					</tr>
+				</table>
+				
+				<p id="submit">
+					<input class="submit" type="submit" value="Send Message">
+				</p>
+				
+            </form>
+            </div>
+        </div>
+        <div id="gallery">
+            <h1>Gallery</h1>
+            <hr>
+            <div class="grid-container">
+                <img src="images/pic1.jpg" alt="My picture 1">
+                <img src="images/pic2.jpg" alt="My picture 2">
+                <img src="images/pic3.jpg" alt="My picture 3">
+                <img src="images/pic4.jpg" alt="My picture 4">
 
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

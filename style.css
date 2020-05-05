@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+#navbar ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color: green;
+    height: 60px;
+}
+
+#navbar li{
+    float:left;
+    height:60px;
+}
+
+#navbar li a{
+    display:block;
+    height: 60px;
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover{
+    background-color: darkslateblue ;
+}
+
+
+.form-style{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+    border-radius: 8px;
+}
+.form-style fieldset{
+	border: none;
+}
+
+.form-style label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style input[type="text"],
+.form-style textarea {
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 20px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #e8eeef;
+	color:black;
+	margin-bottom: 30px;
+}
+.form-style input[type="text"]:focus,
+.form-style textarea:focus,
+.form-style select:focus{
+	background: #d2d9dd;
+}
+
+.form-style input[type="submit"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style input[type="submit"]:hover
+{
+	background: #109177;
+}
+
+.form-style td{
+    font-size: 20px;
+}
+h1{
+    background-color: grey;
+    font-size: 30px;
+}
+ 
+body{
+    background-color: lightblue;
+}
+
+#aboutMe p{
+    font-size:23px;
+}
+
+#aboutMe ul{
+    list-style-type: disc;
+    font-size:23px;
+
+}
+
+#aboutMe li{
+    font-size:23px;
+
+}
+
+#contactMe p{
+    text-align:center;
+    font-size: 23px;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.grid-container img{
+    height:300px;
+    width:300px;
+    margin:0 auto;
+}
+
+#home h1{
+    
+    text-align: center;
+    background-color: lightblue;
+}
+
+#home{
+    margin-bottom: 600px;
+}
+
+#aboutMe{
+    margin-bottom:400px;
+}
+
+#home p{
+    text-align: center;
+    font-size: 1.3em;
+}
